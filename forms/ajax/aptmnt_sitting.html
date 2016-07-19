@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <div id="maid_form">
-    <h2 class="text-center">Maid Request</h2><hr class="light"><br>
-    <form id="maid-form" method="post" action="/forms/php/maid_service.php" role="form">
+    <h2 class="text-center">Apartment Sitting Request</h2><hr class="light"><br>
+    <form id="maid-form" method="post" action="php/maid_service.php" role="form">
         <div class="controls">
             <div class="row">
                 <div class="col-lg-8">
@@ -14,8 +14,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-group">
-                        <label for="mf-date-select">Enter Date for Maid Service</label>
-                        <input type="date" id="mf-date-select" name="mf-date-select" class="form-control" required="required" data-error="Date required.">
+                        <label for="mf-date-select">Enter Date Range for Apartment Sitting</label>
+                        <input type="date" id="mf-date-select" name="mf-date-select" class="form-control" required="required" data-error="Dates required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -24,21 +24,21 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="mf_name">First Name *</label>
-                        <input id="mf_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="First Name is required.">
+                        <input id="mf_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="mf_lastname">Last Name *</label>
-                        <input id="mf_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Last Name is required.">
+                        <input id="mf_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="mf_apt_num">Apartment # *</label>
-                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apartment # *" required="required" data-error="Apartment # is required.">
+                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apt # *" required="required" data-error="Apt # is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -68,8 +68,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="mf_message">Comments</label>
-                        <textarea id="mf_message" name="mf_message" class="form-control" placeholder="Leave comments if you need anything specific." rows="4" ></textarea>
+                        <label for="mf_message">Instructions *</label>
+                        <textarea id="mf_message" name="mf_message" class="form-control" required="required" placeholder="Please leave instructions so we can better accommodate you while you are away." rows="4" data-error="Please leave us some form of instructions."></textarea>
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
             </div>

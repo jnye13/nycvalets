@@ -4,7 +4,7 @@
 $from = 'contact@qa.com';
 $sendTo = 'josh@smrtsystems.com';
 $subject = 'New NYC Valets Message';
-$fields = array('name' => 'First Name', 'surname' => 'Lat Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
+$fields = array('name' => 'First Name', 'surname' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 

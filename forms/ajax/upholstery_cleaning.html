@@ -2,7 +2,7 @@
 
 <div id="maid_form">
     <h2 class="text-center">Maid Request</h2><hr class="light"><br>
-    <form id="maid-form" method="post" action="/forms/php/maid_service.php" role="form">
+    <form id="maid-form" method="post" action="/forms/php/upholstery_cleaning.php" role="form">
         <div class="controls">
             <div class="row">
                 <div class="col-lg-8">
@@ -38,7 +38,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="mf_apt_num">Apartment # *</label>
-                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apartment # *" required="required" data-error="Apartment # is required.">
+                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apt # *" required="required" data-error="Apt # is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_phone">Phone</label>
-                        <input id="mf_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        <label for="mf_phone">Phone *</label>
+                        <input id="mf_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" required="required" data-error="Please leave a contact number.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -68,8 +68,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="mf_message">Comments</label>
-                        <textarea id="mf_message" name="mf_message" class="form-control" placeholder="Leave comments if you need anything specific." rows="4" ></textarea>
+                        <label for="mf_message">Instructions *</label>
+                        <textarea id="mf_message" name="mf_message" class="form-control" required="required" placeholder="Please let us know which piece(s) of furniture you'd like cleaned." data-error="Please let us know which piece(s) of furniture you'd like cleaned." rows="4" ></textarea>
+                        <div class="help-block with-errors"></div>
                     </div>
                 </div>
             </div>

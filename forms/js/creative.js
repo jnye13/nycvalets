@@ -57,35 +57,35 @@
 $(document).ready(function(){
 
     var form = $('#container_form');
-    form.load('message_form.html', '#contact_form');
+    form.load('/forms/ajax/message_form.html');
 
 
     $('#maid_service').click(function(){
-        form.load('/../ajax/maid_service.html');
+        form.load('/forms/ajax/maid_service.html');
     });
 
     $('#aptmnt_sitting').click(function(){
-        form.load('/../ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/aptmnt_sitting.html');
     });
 
     $('#package_delivery').click(function(){
-        form.load('/../ajax/maid_service.html');
+        form.load('/forms/ajax/maid_service.html');
     });
 
     $('#pet_service').click(function(){
-        form.load('/../ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/aptmnt_sitting.html');
     });
 
     $('#upholstery_cleaning').click(function(){
-        form.load('/../ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/aptmnt_sitting.html');
     });
 
     $('#errands').click(function(){
-        form.load('/../ajax/maid_service.html');
+        form.load('/forms/ajax/maid_service.html');
     });
 
     $('#rug_cleaning').click(function(){
-        form.load('/../ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/aptmnt_sitting.html');
     });
 
 

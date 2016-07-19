@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<div id="maid_form">
+    <h2 class="text-center">Maid Request</h2><hr class="light"><br>
+    <form id="maid-form" method="post" action="php/maid_service.php" role="form">
+        <div class="controls">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <label for="building_name">Building Name *</label>
+                        <input id="building_name" type="text" name="building_name" class="form-control" placeholder="Please enter your building name" required="required" data-error="Building name required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="mf-date-select">Enter Date for Maid Service</label>
+                        <input type="date" id="mf-date-select" name="mf-date-select" class="form-control" required="required" data-error="Date required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_name">Firstname *</label>
+                        <input id="mf_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_lastname">Lastname *</label>
+                        <input id="mf_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_apt_num">Lastname *</label>
+                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apt # *" required="required" data-error="Apt # is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_email">Email *</label>
+                        <input id="mf_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_phone">Phone</label>
+                        <input id="mf_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="mf_signature"><input id="mf_signature" name="mf_signature" class="form-control" required="required" type="checkbox" data-error="You must approve entry.">By checking this box I approve entry into my home.</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="mf_message">Comments</label>
+                        <textarea id="mf_message" name="mf_message" class="form-control" placeholder="Leave comments if you need anything specific." rows="4" ></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                </div>
+                <div class="col-md-12">
+                    <p class="required_text"><strong>*</strong> These fields are required.</p>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>

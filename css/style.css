@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?dcvtzr');
+    src:    url('fonts/icomoon.eot?dcvtzr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dcvtzr') format('truetype'),
+    url('fonts/icomoon.woff?dcvtzr') format('woff'),
+    url('fonts/icomoon.svg?dcvtzr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cust:before {
+    content: "\e918";
+}
+.icon-custb:before {
+    content: "\e919";
+}
+.icon-msg:before {
+    content: "\e91a";
+}
+.icon-msgb:before {
+    content: "\e91b";
+}
+.icon-wf:before {
+    content: "\e900";
+}
+.icon-wfb:before {
+    content: "\e901";
+}
+.icon-pin:before {
+    content: "\e902";
+}
+.icon-pinb:before {
+    content: "\e903";
+}
+.icon-coat3:before {
+    content: "\e907";
+}
+.icon-coatb2:before {
+    content: "\e905";
+}
+.icon-track2:before {
+    content: "\e906";
+}
+.icon-trackb:before {
+    content: "\e907";
+}
+.icon-wed4:before {
+    content: "\e908";
+}
+.icon-wedb:before {
+    content: "\e909";
+}
+.icon-alt:before {
+    content: "\e90a";
+}
+.icon-altb:before {
+    content: "\e90b";
+}
+.icon-eco:before {
+    content: "\e90c";
+}
+.icon-ecob:before {
+    content: "\e90d";
+}
+.icon-bed:before {
+    content: "\e90e";
+}
+.icon-bedb:before {
+    content: "\e90f";
+}
+.icon-butts:before {
+    content: "\e910";
+}
+.icon-buttsb:before {
+    content: "\e911";
+}
+.icon-purse:before {
+    content: "\e912";
+}
+.icon-purseb:before {
+    content: "\e913";
+}
+.icon-dvan:before {
+    content: "\e914";
+}
+.icon-dvanb:before {
+    content: "\e915";
+}
+.icon-sofa:before {
+    content: "\e901";
+}
+.icon-sofab:before {
+    content: "\e917";
+}
+

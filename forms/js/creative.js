@@ -69,27 +69,30 @@ $(document).ready(function(){
     });
 
     $('#package_delivery').click(function(){
-        form.load('/forms/ajax/maid_service.html');
+        form.load('/forms/ajax/package_delivery.html');
     });
 
     $('#pet_service').click(function(){
-        form.load('/forms/ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/pet_service.html');
     });
 
     $('#upholstery_cleaning').click(function(){
-        form.load('/forms/ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/upholstery_cleaning.html');
     });
 
     $('#errands').click(function(){
-        form.load('/forms/ajax/maid_service.html');
+        form.load('/forms/ajax/errands.html');
     });
 
     $('#rug_cleaning').click(function(){
-        form.load('/forms/ajax/aptmnt_sitting.html');
+        form.load('/forms/ajax/rug_cleaning.html');
     });
 
-
-
-
+    
+    var $forms = $('.nycform');
+    $forms.click(function(){
+        $forms.removeClass('active');
+        $(this).addClass('active');
+    })
 
 });

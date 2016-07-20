@@ -62,7 +62,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #38b5de;
+    background-color: rgba(56, 181, 215, .8);
 }
 
 .bg-dark {
@@ -89,18 +89,21 @@ aside {
 .nycform {
     display: inline-block;
     text-align: center;
-    padding: 100px;
+    height: 238px;
+    width: 310px;
     border: 2px solid;
     margin: 25px;
     font-size: 24px;
-    max-height: 238px;
-    max-width:  335px;
+    text-decoration: none;
 }
 .nycform:hover {
     background-color: #38b5de;
     color: #fff;
     transition-duration: .5s;
     text-decoration: none;
+}
+.nycform i {
+    margin-top: 75px;
 }
 
 .form_header{
@@ -140,20 +143,20 @@ aside {
     color: #222;
 }
 
-.navbar-default .nav > li>a:hover,
-.navbar-default .nav>li>a:focus:hover {
-    color: #38b5de;
-}
+/*.navbar-default .nav > li>a:hover,*/
+/*.navbar-default .nav>li>a:focus:hover {*/
+/*    color: #38b5de;*/
+/*}*/
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #38b5de!important;
-    background-color: transparent;
+    color: #38b5de;
+    background-color: #fff;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 @media(min-width:768px) {
@@ -168,12 +171,12 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #38b5de;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: #38b5de;
+        color: #fff;
     }
 
     .navbar-default .nav > li>a:hover,

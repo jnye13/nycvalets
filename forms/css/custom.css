@@ -19,13 +19,48 @@ label {
     background-color: #2659ea;
 }
 
+.btn-success{
+    padding: 10px 25px;
+}
+
 .required_text{
     color: #222;
 }
 
+.date_range{
+    display: inline-block;
+    width: 45%;
+}
+
 .active{
     background-color: #38b5de;
-    color: #fff;
+    color: #fff!important;
     transition-duration: .5s;
+    text-decoration: none!important;
+    border-color: #38b5de;
+}
+
+a{
     text-decoration: none;
+}
+
+.approval_label{
+    width: 80%;
+    margin-top:10px;
+}
+.approval_box{
+    width:10%;
+}
+.approval{
+    margin-top: 20px;
+}
+
+#form_downloads{
+    margin-bottom: 50px;
+}
+
+@media(min-width:1200px) {
+    .date_range_br{
+        display: none;
+    }
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<div id="maid_form">
-    <h2 class="text-center">Maid Request</h2><hr class="light"><br>
+<div id="upholstery_form">
+    <h2 class="text-center">Upholstery Cleaning Request</h2><hr class="light"><br>
     <form id="maid-form" method="post" action="/forms/php/upholstery_cleaning.php" role="form">
         <div class="controls">
             <div class="row">
@@ -14,8 +14,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-group">
-                        <label for="mf-date-select">Enter Date for Maid Service</label>
-                        <input type="date" id="mf-date-select" name="mf-date-select" class="form-control" required="required" data-error="Date required.">
+                        <label for="uf-date-select">Enter Date for Upholstery Cleaning *</label>
+                        <input type="date" id="uf-date-select" name="uf-date-select" class="form-control" required="required" data-error="Date required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -23,22 +23,22 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_name">First Name *</label>
-                        <input id="mf_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="First Name is required.">
+                        <label for="uf_name">First Name *</label>
+                        <input id="uf_name" type="text" name="uf_name" class="form-control" placeholder="Please enter your first name" required="required" data-error="First Name is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_lastname">Last Name *</label>
-                        <input id="mf_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Last Name is required.">
+                        <label for="uf_lastname">Last Name *</label>
+                        <input id="uf_lastname" type="text" name="uf_lastname" class="form-control" placeholder="Please enter your last name" required="required" data-error="Last Name is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_apt_num">Apartment # *</label>
-                        <input id="mf_apt_num" type="text" name="mf_apt_num" class="form-control" placeholder="Please enter your Apt # *" required="required" data-error="Apt # is required.">
+                        <label for="uf_apt_num">Apartment # *</label>
+                        <input id="uf_apt_num" type="text" name="uf_apt_num" class="form-control" placeholder="Please enter your Apartment #" required="required" data-error="Apt # is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -46,21 +46,21 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_email">Email *</label>
-                        <input id="mf_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <label for="uf_email">Email *</label>
+                        <input id="uf_email" type="email" name="uf_email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
-                        <label for="mf_phone">Phone *</label>
-                        <input id="mf_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" required="required" data-error="Please leave a contact number.">
+                        <label for="uf_phone">Phone *</label>
+                        <input id="uf_phone" type="tel" name="uf_phone" class="form-control" placeholder="Please enter your phone number" required="required" data-error="Please leave a contact number.">
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="mf_signature"><input id="mf_signature" name="mf_signature" class="form-control" required="required" type="checkbox" data-error="You must approve entry.">By checking this box I approve entry into my home.</label>
+                    <div class="form-group approval">
+                        <input id="uf_signature" name="uf_signature" class="form-control approval_box pull-left" required="required" type="checkbox" data-error="You must approve entry."><label for="uf_signature" class="pull-left approval_label">I approve entry into my home. *</label>
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>
@@ -68,8 +68,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="mf_message">Instructions *</label>
-                        <textarea id="mf_message" name="mf_message" class="form-control" required="required" placeholder="Please let us know which piece(s) of furniture you'd like cleaned." data-error="Please let us know which piece(s) of furniture you'd like cleaned." rows="4" ></textarea>
+                        <label for="uf_message">Instructions *</label>
+                        <textarea id="uf_message" name="uf_message" class="form-control" required="required" placeholder="Please let us know which piece(s) of furniture you'd like cleaned." data-error="Please let us know which piece(s) of furniture you'd like cleaned." rows="4" ></textarea>
                         <div class="help-block with-errors"></div>
                     </div>
                 </div>

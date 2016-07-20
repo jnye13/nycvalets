@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'contact@qa.com';
+$from = 'contact@qa.smrtapp.com';
 $sendTo = 'josh@smrtsystems.com';
 $subject = 'New NYC Valets Message';
 $fields = array('name' => 'First Name', 'surname' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email

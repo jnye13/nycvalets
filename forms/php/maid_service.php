@@ -4,7 +4,7 @@
 $from = 'contact@qa.com';
 $sendTo = 'josh@smrtsystems.com';
 $subject = 'New NYC Valets Maid Service Request';
-$fields = array('building_name'=> 'Building Name','name' => 'First Name', 'surname' => 'Lat Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
+$fields = array('building_name'=> 'Building Name','mf-date-select' => 'Date', 'mf_name' => 'First Name', 'mf_lastname' => 'Last Name', 'mf_apt_num' => 'Apartment #', 'mf_phone' => 'Phone', 'mf_email' => 'Email', 'mf_signature' => 'Signed Waiver', 'mf_message' => 'Comments'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have a new Maid Service Request.\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 

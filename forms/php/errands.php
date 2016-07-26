@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'contact@qa.com';
+$from = 'formmailer@secureserver.net';
 $sendTo = 'josh@smrtsystems.com';
 $subject = 'New NYC Valets Errands Request';
 $fields = array('building_name'=> 'Building Name','ef-date-select' => 'Date', 'ef_name' => 'First Name', 'ef_lastname' => 'Last Name', 'ef_apt_num' => 'Apartment #', 'ef_phone' => 'Phone', 'ef_email' => 'Email', 'ef_signature' => 'Signed Waiver', 'ef_message' => 'Instructions'); // array variable name => Text to appear in email

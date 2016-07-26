@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'contact@qa.smrtapp.com';
+$from = 'formmailer@secureserver.net';
 $sendTo = 'josh@smrtsystems.com';
 $subject = 'New NYC Valets Message';
 $fields = array('name' => 'First Name', 'surname' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
@@ -12,7 +12,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new message.\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
